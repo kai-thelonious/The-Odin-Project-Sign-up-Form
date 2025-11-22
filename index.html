@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<section>
+    <div class="image-div">
+        <img src="images/tree.avif" height="720" alt="tropical-tree-image">
+
+        <div class="overlay">
+            <img src="images/odin-lined.png" height="100" alt="tropical-tree">
+            <h1>ODIN</h1>
+        </div>
+    </div>
+
+
+
+    <div class="main-div">
+
+        <div class="text-div">
+            <p id="main-p">This is not a real online service! You know you need
+                something like this in your life to help you realize your
+                deepest dreams. <br>
+                Sign up <em>now</em> to get started.
+            </p>
+            <p id="second-p">
+                You <em>know</em> you want to.
+            </p>
+        </div>
+
+        <fieldset>
+            <form action="/submit-form" method="post">
+
+                <h2 id="form-header">Let's do this!</h2>
+
+                <div class="form-fields">
+                    <div class="form-left">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+
+                    <div class="form-right">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone">
+
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" name="password">
+                    </div>
+                </div>
+
+            </form>
+        </fieldset>
+
+
+        <div class="submit-div">
+            <button type="submit">Create Account</button>
+            <div class="misc-text">
+                <p>Already have an account?</p>
+                <a href="index.html">Log in</a>
+            </div>
+
+        </div>
+
+
+    </div>
+</section>
+
+</body>
+</html>

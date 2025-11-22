@@ -1,0 +1,154 @@
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --form-font: "Roboto", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    background-color: #ececec;
+}
+
+.image-div {
+    width: 480px;
+
+}
+
+img {
+    position: relative;
+    width: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    background-color: #00000088;
+    width: 480px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        color: white;
+    }
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7%
+}
+
+.text-div {
+    padding-left: 25px;
+
+    font-family: var(--main-font);
+    font-weight: bold;
+
+    #second-p {
+        padding-top: 35px;
+    }
+}
+
+fieldset {
+    border-style: none;
+    background: white;
+
+
+
+}
+
+form {
+    padding: 10px 25px;
+
+
+
+    h2 {
+        font-family: var(--main-font);
+        font-size: 1rem;
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+}
+
+.form-fields {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    font-family: var(--form-font);
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+
+/* Only for text input fields */
+input{
+    font-family: var(--form-font);
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 0 0 20px 0;
+    height: 20px;
+    width: 200px;
+}
+
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+label {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.submit-div {
+    padding-left: 25px;
+
+
+}
+
+button {
+    font-family: var(--main-font);
+    color: white;
+    background-color: #596D48;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-style: none;
+    margin-bottom: 25px;
+
+}
+
+.misc-text {
+    display: flex;
+    font-family: var(--main-font);
+    font-size: 0.8rem;
+    gap: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+
+}
